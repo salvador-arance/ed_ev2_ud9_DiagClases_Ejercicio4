@@ -77,8 +77,14 @@ public class Utils {
 		    break;
 		}
 		case 3: {
-			System.out.println(factura.total());
-			break;
+			System.out.println("--- Invoice Products ---");
+		    for (Product p : factura.products) {
+		        System.out.println(p.toString());
+		    }
+		    System.out.println("------------------------");
+		    System.out.print("Total: ");
+		    System.out.println(factura.total());
+		    break;
 		}
 		}
 	}

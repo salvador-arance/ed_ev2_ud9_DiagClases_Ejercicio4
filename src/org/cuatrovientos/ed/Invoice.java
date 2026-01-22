@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Invoice {
 	private Customer customer;
-	ArrayList<Product> products = new ArrayList<Product>();
+	public ArrayList<Product> products = new ArrayList<Product>();
 
-	Invoice(String name) {
+	public Invoice(String name) {
 		customer = new Customer(name);
 	}
 

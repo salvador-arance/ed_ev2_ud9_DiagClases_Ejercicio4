@@ -1,7 +1,7 @@
 package org.cuatrovientos.ed;
 
 public class Product {
-	private String name;
+	public String name;
 	private int  qty;
 	private float price;
 	
